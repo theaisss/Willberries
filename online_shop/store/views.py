@@ -141,7 +141,7 @@ class FavoriteViewSet(viewsets.ModelViewSet):
 
 class FavoriteItemViewSet(viewsets.ModelViewSet):
     queryset = FavoriteItem.objects.all()
-    serializer_class = FavoriteItemSerializer
+    serializer_class = FavoriteItemSerialize
 
 
 # from venv import create
